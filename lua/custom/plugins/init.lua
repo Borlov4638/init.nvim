@@ -2,4 +2,10 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-return {}
+-- custom/plugins/init.lua
+
+-- custom/plugins/init.lua
+
+return {
+  require 'custom.plugins.harpoon', -- Подключаем harpoon с конфигурацией
+}
